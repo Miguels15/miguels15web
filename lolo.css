@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Sarala&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Slabo+13px&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pattaya&display=swap');
+*{
+    padding:0px;
+    margin: auto
+}
+body{
+    background-image:url(imagenes/fondi.jpg);
+    padding:0px;
+    margin:0px;
+}
+.leslie{
+    transition: all .6s;
+    box-shadow: 0px 5px 21px 10px rgb(163, 176, 228);
+    display:inline-block;
+    border-radius:10px;
+    overflow: hidden;
+    margin: 30px;
+    position: relative;
+    background-color:#BEBCE3;
+    width:550px;
+    height:280px;
+}
+.img_leslie{
+    float:left;
+    position: relative;
+    margin:10px;
+    width:200px;
+    height:250px;
+}
+.parrafo1{
+    font-family: 'Slabo 13px', serif;
+    margin: 10px;
+    position: relative;
+}
+.titulo1{
+    text-align: center;
+    font-size:40px;
+    font-family: 'Pattaya', sans-serif;
+}
+.fondo_pag{
+    position:absolute;
+    width:100%;
+}
+.gif_pag{
+    position: relative;
+}
+.leslie:hover{
+    transition: all .6s;
+    transform: translateY(-15px);
+}
+.gal{
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Sarala', sans-serif;
+    color: cornflowerblue;
+}
+.galeria_pag{
+    margin: 10px;
+    border-radius: 10px;
+    width: 1600px;
+    display:inline-table;
+    box-shadow: 0px 5px 21px 10px rgb(163, 228, 215);
+    background-color:#CDECEE;
+}
+.img_gal{
+    margin:10px;
+    width:290px;
+    height:330px;
+}
+.contenedor_img{
+    margin: 10px;
+    transition: all .6s;
+    border-radius: 9px;
+    display: inline-block;
+    height:350px;
+    width:310px;
+    background-color:#E0CDEE;
+}
+.contenedor_img:hover{
+    transition: all .6s;
+    transform: translateY(-10px);
+}
+
+
